@@ -34,7 +34,7 @@ The Fire Weather Index (FWI) web application predicts the Fire Weather Index (FW
 ### Steps:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/fwi-app.git
+   git clone https://github.com/Fire-Weather-Index-FWI-Prediction/fwi-app.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -49,7 +49,7 @@ The Fire Weather Index (FWI) web application predicts the Fire Weather Index (FW
    - `scaler.pkl` (the trained StandardScaler)
 5. Run the application:
    ```bash
-   python app.py
+   python application.py
    ```
 6. Open the app in a browser at [http://localhost:5000](http://localhost:5000).
 
@@ -72,16 +72,19 @@ The Fire Weather Index (FWI) web application predicts the Fire Weather Index (FW
 2. Click the **Predict** button.
 3. View the predicted FWI on the results page.
 
+![Alt Text](image_path_or_URL "Optional Tooltip")
+
 ---
 
 ## Model Training
 - **Dataset**: Preprocessed dataset containing features like temperature, humidity, wind speed, and more.
 - **Algorithms**: Various machine learning models were trained and evaluated, including:
-  - Logistic Regression
-  - Random Forest
-  - Support Vector Machine (SVM)
+  - Linear Regression
+  - Lasso Regression
+  - Ridge Regression
+  - ElasticNet Regression
   - Ridge Regression (Best Performing Model)
-- **Evaluation Metric**: The Ridge Regression model outperformed others in terms of accuracy and stability.
+- **Evaluation Metric**: The Ridge Regression model outperformed others in terms of accuracy and stability with 98.42% prediction Accuracy after cross validation and hyperparameter tunning.
 
 
 ## Future Enhancements
