@@ -72,7 +72,7 @@ The Fire Weather Index (FWI) web application predicts the Fire Weather Index (FW
 2. Click the **Predict** button.
 3. View the predicted FWI on the results page.
 
-![Alt Text](image_path_or_URL "Optional Tooltip")
+![Alt Text](https://github.com/jimmymuthoni/Fire-Weather-Index-FWI-Prediction/blob/25a45c3c4a3ccfb60f00e4a80302733dd35d7dad/fwi.png)
 
 ---
 
@@ -101,5 +101,5 @@ This project is licensed under the MIT License. See `LICENSE` for more details.
 ---
 
 ## Contact
-For inquiries or contributions, please contact [your-email@example.com].
+For inquiries or contributions, please contact [jimmymuthoni26@gmail.com].
 
